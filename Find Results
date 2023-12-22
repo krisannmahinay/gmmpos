@@ -1,0 +1,45 @@
+Searching 707 files for "or.finder.php"
+
+/Applications/XAMPP/xamppfiles/htdocs/mxipos/medix.top.butts.php:
+   28  echo "<th class='wpadd' width='1%' nowrap>";
+   29  	echo "<a class='btn btn-danger btn-block' style='text-decoration:none'
+   30: 	onclick=\"window.open('or.finder.php','popupORLOOK',
+   31  		'width=380,height=160,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=300,top=250');
+   32  	return false\">OR Finder</a>";
+
+/Applications/XAMPP/xamppfiles/htdocs/mxipos/or.finder.php:
+  171  
+  172  
+  173: echo "<form name='frmORF' action='or.finder.php' autocomplete=off>";
+  174  
+  175  echo "<table border='0' cellpadding=2 cellspacing=2>";
+
+/Applications/XAMPP/xamppfiles/htdocs/mxipos/plu.top.php:
+   31  echo "<th width='1%' nowrap>";
+   32  	echo "<a class='button red' style='display:block'
+   33: 	onclick=\"window.open('or.finder.php','popupDiscs',
+   34  	'width=380,height=180,scrollbars=yes,resizable=yes,toolbar=no,directories=no,location=no,menubar=no,status=no,left=300,top=250');
+   35  	return false\" $W_disabled>OR Finder (f2)</a>";
+
+/Applications/XAMPP/xamppfiles/htdocs/mxipos/plukeys.ILO.js:
+   68     //      case 122: //113 F2 SELECT TABLE
+   69     //          var window_settings="menubar=0,resizable=yes,width=380,left=300,top=250,height=160,status=0,scrollbars=yes";
+   70:    //          window.open("or.finder.php", "orlook",window_settings);         
+   71  			// document.frmSales.submit();
+   72     //          break;			
+
+/Applications/XAMPP/xamppfiles/htdocs/mxipos/plukeys.wfs.js:
+   66          //case 122: //F11 new transac
+   67          //    var window_settings="menubar=0,resizable=yes,width=380,left=300,top=250,height=160,status=0,scrollbars=yes";
+   68:         //    window.open("or.finder.php", "orlook",window_settings);         
+   69  		//	document.frmSales.submit();
+   70          //    break;			
+
+/Applications/XAMPP/xamppfiles/htdocs/mxipos/z.NOTES.php:
+   83  	Line 10: 	|| $sesnLOGGEDUserPOSTmpFile == "")
+   84  	Line 19: 	$mSql = "TRUNCATE TABLE `$sesnLOGGEDUserPOSTmpFile`;";
+   85:   C:\SOFTMOWEB\mxipos\or.finder.php (2 hits)
+   86  	Line 89: 		$mSql = "TRUNCATE TABLE `$sesnLOGGEDUserPOSTmpFile`;";
+   87  	Line 92: 		$mSql = "INSERT INTO `$sesnLOGGEDUserPOSTmpFile` 
+
+6 matches across 6 files
